@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>PSTS</title>
+</head>
+<body>
+    <h1 class="text-3xl font-bold text-center m-6">Student Creativity Festival</h1>
+    <h2 class="text-xl text-center">Showcase Your Creativity, Skills and innovative Idea</h2>
+     <main class="flex justify-center">
+        <section class="bg-grey-400 p-6 rounded-lg shadow-md w-full max-w-md my-8">
+            <div class="text-left pt-1">
+        <form action="#" method="POST" class="space-y-8">
+            <div class="mb-8">
+                <label for="name">Name</label>
+                <input type="text" placeholder="Enter Your Full Name" class="w-full px-3 py-2 text-xs bg-[#121235] text-white rounded border border-grey-900/80 focus:outline-none focus:border-grey-500 placeholder:text-grey-400" required/> 
+            </div>
+            <div class="mb-8">
+                <label for="classroom">Classroom</label>
+                    <select class="w-full px-3 py-2 text-xs bg-[#121235] text-white rounded border border-grey-900/80 focus:outline-none focus:border-grey-500 placeholder:text-grey-400" required>
+                        <option value="" disabled selected>Your Classroom</option>
+                        <option value="classroom1">X</option>
+                        <option value="classroom2">XI</option>
+                        <option value="classroom3">XII</option>
+                    </select>
+                </label>
+            </div>
+            <div class="mb-8">
+                <P>Gender</P>
+                <label class="radio-label">
+                    <input type="radio" name="radio-label">
+                    Male
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="radio-label">
+                    Female
+                </label>
+            </div>
+            <div class="mb-8">
+                <label for="Competition Category">Competition Category</label>
+                    <select class="w-full px-3 py-2 text-Competition Categoryxs bg-[#121235] text-white rounded border border-grey-900/80 focus:outline-none focus:border-grey-500 placeholder:text-grey-400" required>
+                        <option value="" disabled selected>Your Competition Category</option>
+                        <option value="classroom1">Web Develpment</option>
+                        <option value="classroom2">ioT Project</option>
+                        <option value="classroom3">Grapich Design</option>
+                        <option value="classroom4">Public Speaking</option>
+                        <option value="classroom4">Photography</option>
+                    </select>
+                </label>
+            </div>
+            <div class="mb-8">
+                <p>Participation Type</p>
+                <label class="radio-label">
+                    <input type="radio" name="radio">
+                    Individual
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="radio">
+                    Team
+                </label>
+            </div>
+            <div class="mb-8">
+                <label for="Team name">Team Name</label>
+                <input type="text" placeholder="Enter Your Team's Name" class="w-full px-3 py-2 text-xs bg-[#121235] text-white rounded border border-grey-900/80 focus:outline-none focus:border-grey-500 placeholder:text-grey-400" required/> 
+            </div>
+            <div class="mb-8">
+                <label for="number">Contact number</label>
+                <input type="text" placeholder="08xxxxxxxx" class="w-full px-3 py-2 text-xs bg-[#121235] text-white rounded border border-grey-900/80 focus:outline-none focus:border-grey-500 placeholder:text-grey-400" required/> 
+            </div>
+            <div class="mb-8 textarea">
+                <label for="job duties">Project Description</label>
+                <textarea placeholder="Desribe Your Project or Competition Entery" class="w-full px-3 py-2 text-xs bg-[#121235] text-white rounded border border-grey-900/80 focus:outline-none focus:border-grey-500 placeholder:text-grey-400" required></textarea>
+            </div>
+            <button type="submit" class="w-full px-3 py-2 text-xs bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-md shadow-md border border-indigo-900 transition-colors mt-4">Send Message</button>
+        </form>
+    </div>
+        </section>
+
+    </main>
+    <footer>
+                <div class="bg- rounded max-w-2xl p-4 shadow text-black mx-auto">
+        <table class="border border-black max-w-md">
+        <tr>
+            <th class="p-4 border border-grey-500">No</th>
+            <th class="p-4 border border-grey-500">Participat</th>
+            <th class="p-4 border border-grey-500">Class</th>
+            <th class="p-4 border border-grey-500">Categoty</th>
+            <th class="p-4 border border-grey-500">Team</th>
+            <th class="p-4 border border-grey-500">Status</th>
+        </tr>
+        <tr>
+            <td class="p-4 border border-grey-500">1</td>
+            <td class="p-4 border border-grey-500">Risky</td>
+            <td class="p-4 border border-grey-500">x1</td>
+            <td class="p-4 border border-grey-500">Public Speaking</td>
+            <td class="p-4 border border-grey-500">Team 1</td>
+            <td class="p-4 border border-grey-500">Registered</td>
+        </tr>
+        <tr>
+            <td class="p-4 border border-grey-500">2</td>
+            <td class="p-4 border border-grey-500">Keanu</td>
+            <td class="p-4 border border-grey-500">xII</td>
+            <td class="p-4 border border-grey-500">Web Development</td>
+            <td class="p-4 border border-grey-500">Individual</td>
+            <td class="p-4 border border-grey-500">Registered</td>
+        </tr>
+        <tr>
+            <td class="p-4 border border-grey-500">3</td>
+            <td class="p-4 border border-grey-500">Hafiz</td>
+            <td class="p-4 border border-grey-500">X</td>
+            <td class="p-4 border border-grey-500">ioT Project</td>
+            <td class="p-4 border border-grey-500">Indivodual</td>
+            <td class="p-4 border border-grey-500">Pending</td>
+        </tr>
+        </div>
+    </footer>
+   
+</body>
+</html>
